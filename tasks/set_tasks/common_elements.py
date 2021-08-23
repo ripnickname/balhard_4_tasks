@@ -6,9 +6,8 @@
 """
 
 
-def common_elements(list_1: list, list_2) -> set:
-    result = None
-    # TODO вставить код сюда
+def common_elements(list_1: list, list_2: list) -> set:
+    result = list_1 & list_2
     return result
 
 
